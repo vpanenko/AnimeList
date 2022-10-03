@@ -1,15 +1,12 @@
-html {
-    height: 100%;
-}
-
 body {
-    background-image: url(./imgs/hxhbg1.jpeg);
+    background-image: url(./imgs/narutobg.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 2000px;
     font-family: Secular One, regular;
 
 }
+
 .container {
     background-color: rgba(63, 61, 61, 0.55); 
     padding: 10px; 
@@ -20,26 +17,6 @@ body {
     display: block;
 }
 
-.container-images {
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-text {
-    font-size: 20px;
-    padding-left: 20px;
-}
-
-h1  {
-    text-align: center;
-    margin-top: 50px;
-}
-
-img {
-    align-items: center;
-}
-
 .header {
     padding: 30px;
     text-align: center;
@@ -48,9 +25,17 @@ img {
     font-size: 20px;
     margin-left: 205px;
     width: 939px;
-  }
+    
+}
 
-  .buttons {
+.container-img {
+    margin-left: 30px;
+}
+ .text {
+    margin-top: 100px;
+ }
+
+ .buttons {
     display: flex;
     flex-direction: row;
         flex-wrap: wrap;
@@ -125,4 +110,7 @@ img {
     -webkit-transform: translateY(0) scale(1,1);
             transform: translateY(0) scale(1,1);
   }
-  
+
+  .text-grade {
+    margin-top: 50px;
+  }
