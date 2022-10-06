@@ -1,8 +1,7 @@
 body {
     background-image: url(./imgs/narutobg.jpeg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 2000px;
+    background-size: 125%;
     font-family: Secular One, regular;
 
 }
@@ -26,6 +25,48 @@ body {
     margin-left: 205px;
     width: 939px;
     
+}
+
+.character-profile {
+    text-align: center;
+    vertical-align: auto;
+    display: inline-block;
+}
+
+.character-frame{
+  border: solid 5px black;
+  height: 230px;
+  width: 300px;
+  float: right;
+  margin-top: 30px;
+}
+
+.character-frame2 {
+  border: solid 5px black;
+  height: 230px;
+  width: 230px;
+  float: left;
+  margin-top: 30px;
+}
+
+.character-frame3 {
+  border: solid 5px black;
+  height: 230px;
+  width: 300px;
+  float: left;
+  margin-top: 30px;
+}
+
+.character-frame4 {
+  border: solid 5px black;
+  height: 230px;
+  width: 230px;
+  float: right;
+  margin-top: 30px;
+}
+
+.character-text {
+  margin-top: 45px;
 }
 
 .container-img {
