@@ -1,14 +1,9 @@
-html {
-    height: 100%;
-}
-
 body {
-    background-image: url(./imgs/hxhbg1.jpeg);
-    background-repeat: no-repeat;
+    background-image: url(./imgs/akamebg.jpeg);
     background-size: 100%;
-    font-family: Secular One, regular;
-
+    font-family: Secular One,regular;
 }
+
 .container {
     background-color: rgba(63, 61, 61, 0.55); 
     padding: 10px; 
@@ -17,6 +12,16 @@ body {
     margin-left: 205px;
     text-align: center;
     display: block;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background: gray;
+    color: white;
+    font-size: 20px;
+    margin-left: 205px;
+    width: 939px;
 }
 
 .container-images {
@@ -39,16 +44,6 @@ img {
     align-items: center;
 }
 
-.header {
-    padding: 30px;
-    text-align: center;
-    background: gray;
-    color: white;
-    font-size: 20px;
-    margin-left: 205px;
-    width: 939px;
-  }
-
   .character-profile {
     text-align: center;
     vertical-align: auto;
@@ -69,6 +64,14 @@ img {
 
 .character-frame2 {
   width: 225px;
+  height: 225px;
+  border: solid 5px black;
+  float: left;
+  margin-top: 30px;
+}
+
+.character-frame3 {
+width: 200px;
   height: 225px;
   border: solid 5px black;
   float: left;
@@ -150,4 +153,3 @@ img {
     -webkit-transform: translateY(0) scale(1,1);
             transform: translateY(0) scale(1,1);
   }
-  
