@@ -1,18 +1,8 @@
 body {
-    background-image: url(./imgs/akamebg.jpeg);
-    background-size: 100%;
+    background-image: url(./imgs/jojobg.jpeg);
+    background-size: 140%;
     background-repeat: no-repeat;
-    font-family: Secular One,regular;
-}
-
-.container {
-    background-color: rgba(63, 61, 61, 0.55); 
-    padding: 10px; 
-    color: whitesmoke; 
-    width: 980px;
-    margin-left: 205px;
-    text-align: center;
-    display: block;
+    font-family: Secular One, regular;
 }
 
 header {
@@ -25,61 +15,47 @@ header {
     width: 939px;
 }
 
-.container-images {
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-text {
-    font-size: 20px;
-    padding-left: 20px;
-}
-
-h1  {
+.container {
+    background-color: rgba(63, 61, 61, 0.55);
+    padding: 10px;
+    color: whitesmoke;
+    width: 980px;
+    margin-left: 205px;
     text-align: center;
-    margin-top: 50px;
+    display: block;
 }
 
-img {
-    align-items: center;
-}
-
-  .character-profile {
+.character-profile {
     text-align: center;
     vertical-align: auto;
     display: inline-block;
 }
 
-.character-info {
-  margin-top: 55px;
-}
-
 .character-frame {
-  width: 225px;
-  height: 225px;
-  border: solid 5px black;
-  float: right;
-  margin-top: 30px;
+    border: solid 5px black;
+    height: 270px;
+    width: 200px;
+    float: left;
+    margin-top: 30px;
 }
 
 .character-frame2 {
-  width: 225px;
-  height: 225px;
-  border: solid 5px black;
-  float: left;
-  margin-top: 30px;
+    border: solid 5px black;
+    height: 225px;
+    width: 225px;
+    float: right;
+    margin-top: 30px;
+}
+ 
+.text {
+    margin-top: 50px;
 }
 
-.character-frame3 {
-width: 200px;
-  height: 225px;
-  border: solid 5px black;
-  float: left;
-  margin-top: 30px;
+.hrclass {
+    margin-top: 150px;
 }
 
-  .buttons {
+.buttons {
     display: flex;
     flex-direction: row;
         flex-wrap: wrap;
