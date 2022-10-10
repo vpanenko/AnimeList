@@ -1,0 +1,60 @@
+body {
+    background-image: url(./imgs/souleaterbg.jpeg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    font-family: Secular One, regular;
+}
+
+.container {
+    background-color: rgba(63, 61, 61, 0.55);
+    padding: 10px;
+    color: whitesmoke;
+    width: 980px;
+    margin-left: 205px;
+    text-align: center;
+    display: block;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background: gray;
+    color: white;
+    font-size: 20px;
+    margin-left: 205px;
+    width: 939px;
+}
+
+.character-profile {
+    text-align: center;
+    vertical-align: auto;
+    display: inline-block;
+}
+
+.character-frame {
+    border: solid 5px black;
+    height: 225px;
+    width: 225px;
+    float: right;
+    margin-top: 30px;
+}
+
+.character-frame2 {
+    border: solid 5px black;
+    height: 225px;
+    width: 225px;
+    float: left;
+    margin-top: 30px;
+}
+
+.character-frame3 {
+    border: solid 5px black;
+    height: 270px;
+    width: 205px;
+    float: left;
+    margin-top: 30px;
+}
+
+.text {
+    margin-top: 50px;
+}
