@@ -1,0 +1,68 @@
+body {
+    background-image: url(./imgs/640956.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Secular One, regular;
+}
+
+header {
+    background-color: grey;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 205px;
+    width: 939px;
+    color: white;
+}
+
+.container {
+    background-color: rgba(63, 61, 61, 0.55);
+    padding: 10px;
+    text-align: center;
+    margin-left: 205px;
+    width: 980px;
+    display: block;
+    color: whitesmoke;
+}
+
+.character-profile {
+    text-align: center;
+    display: inline-block;
+    vertical-align: auto;
+}
+
+.character-frame {
+    border: solid 5px black;
+    width: 225px;
+    height: 225px;
+    float: right;
+    margin-top: 30px;
+}
+
+.character-frame2 {
+    border: solid 5px black;
+    width: 225px;
+    height: 225px;
+    float: left;
+    margin-top: 30px;
+}
+
+.character-frame3 {
+    border: solid 5px black;
+    width: 205px;
+    height: 270px;
+    float: right;
+    margin-top: 30px;
+}
+
+.character-frame4 {
+    border: solid 5px black;
+    width: 205px;
+    height: 270px;
+    float: left;
+    margin-top: 30px;
+}
+
+.text {
+    margin-top: 50px;
+}
