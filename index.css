@@ -1,5 +1,5 @@
 body {
-    background-image: url(./imgs/mainbg.webp);
+    background-image: url(./imgs/mainbg.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: Secular One, regular;
@@ -10,17 +10,91 @@ body {
 }
 
 .container {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 0.3);
     width: 980px;
-    display: block;
+    display: inline-block;
     margin-left: 205px;
-    color: whitesmoke;
+    color: white;
+    text-align: center;
 }
 
 .hxh {
     color: white;
     text-align: center;
     font-size: 15px;
+}
+
+.anime-profile {
+    border: solid 2px wheat;
+    float: right;
+    height: 622px;
+    width: 304px;
+
+}
+
+.border {
+    color: wheat;
+    size: 4px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+  }
+  
+  td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.anime-frame {
+    border: solid 2px wheat;
+    height: 250px;
+    width: 300px;
+
+    
+}
+
+.images {
+    float: left;
+    border: solid 2px black;
+    margin-bottom: 10px;
+}
+
+.images2 {
+    float: right;
+    border: solid 2px black;
+    margin-bottom: 10px;
+}
+
+.images3 {
+    float: left;
+    border: solid 2px black;
+    margin-bottom: 10px;
+}
+
+.images4 {
+    float: auto;
+    border: solid 2px black;
+    margin-bottom: 10px;
+}
+
+.images5 {
+    float: right;
+    border: solid 2px black;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-left: 580px;
+    color: white;
 }
 
 /* Navbar container */
@@ -30,6 +104,10 @@ body {
     font-family: Secular One, regular;
   }
   
+.navbar-logo:hover {
+    background-color: #333;
+}
+
   /* Links inside the navbar */
   .navbar a {
     float: left;
@@ -37,7 +115,7 @@ body {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none;;
   }
   
   /* The dropdown container */
