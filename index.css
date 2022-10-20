@@ -1,6 +1,6 @@
 body {
     background-image: url(./imgs/mainbg.jpeg);
-    background-size: 100%;
+    background-size: 400%;
     background-repeat: no-repeat;
     font-family: Secular One, regular;
 }
@@ -16,6 +16,7 @@ body {
     margin-left: 205px;
     color: white;
     text-align: center;
+    vertical-align: auto;
 }
 
 .hxh {
@@ -32,9 +33,18 @@ body {
 
 }
 
+.anime-profile2 {
+    border: solid 2px wheat;
+    float: right;
+    height: 640.6px;
+    width: 304px;
+
+}
+
 .border {
     color: wheat;
     size: 4px;
+    width: 200px;
 }
 
 table {
@@ -54,12 +64,42 @@ table {
     background-color: #dddddd;
   }
 
+.sidebar {
+    height: 688px;
+    width: 300px;
+    float: right;
+    display: block;
+}
+
+.sidebar2 {
+    height: 700px;
+    width: 300px;
+    float: right;
+    display: block;
+}
+
+.text-frame {
+    font-size: 17px;
+    border: solid  0px black;
+    width: 640px;
+    margin-left: 17px;
+}
+
 .anime-frame {
     border: solid 2px wheat;
     height: 250px;
     width: 300px;
+}
 
-    
+.content {
+    display: inline-block;
+    text-align: center;
+}
+
+.hxhimg {
+    float: left;
+    margin-bottom: 10px;
+        
 }
 
 .images {
@@ -68,29 +108,10 @@ table {
     margin-bottom: 10px;
 }
 
-.images2 {
-    float: right;
+.frame {
     border: solid 2px black;
-    margin-bottom: 10px;
 }
 
-.images3 {
-    float: left;
-    border: solid 2px black;
-    margin-bottom: 10px;
-}
-
-.images4 {
-    float: auto;
-    border: solid 2px black;
-    margin-bottom: 10px;
-}
-
-.images5 {
-    float: right;
-    border: solid 2px black;
-    margin-bottom: 10px;
-}
 
 .title {
     margin-left: 580px;
