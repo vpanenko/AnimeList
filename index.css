@@ -9,6 +9,11 @@ body {
     float:left
 }
 
+header {
+  width: 980px;
+  margin-left: 205px;
+}
+
 .container {
     background-color: rgba(255, 255, 255, 0.3);
     width: 980px;
@@ -114,7 +119,7 @@ table {
 
 
 .title {
-    margin-left: 580px;
+    margin-left: 400px;
     color: white;
 }
 
@@ -184,7 +189,7 @@ footer {
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: grey;
   }
   
   /* Dropdown content (hidden by default) */
