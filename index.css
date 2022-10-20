@@ -118,6 +118,31 @@ table {
     color: white;
 }
 
+footer {
+  background-color: rgba(78, 123, 196, 0.5);
+  width: 980px;
+  margin-left: 205px;
+  color: white;
+  display: inline-block;
+  font-family: arial;
+}
+
+.footer-title {
+  text-align: center;
+}
+
+.iglink {
+  float: right;
+}
+
+.ghlink {
+  float: left;
+}
+
+.description {
+  text-align: center;
+}
+
 /* Navbar container */
 .navbar {
     overflow: hidden;
